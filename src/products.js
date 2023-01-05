@@ -33,19 +33,19 @@ export const PRODUCTS = [
     },
     {
         id: 5,
-        productName: "Pixel 6",
+        productName: "Google Pixel 6",
         price: 999.0,
         productImage: product5,
     },
     {
         id: 6,
-        productName: "Galaxy s22 Ultra",
+        productName: "Galaxy S22 Ultra",
         price: 1799.0,
         productImage: product6,
     },
     {
         id: 7,
-        productName: "Apple watch series 7",
+        productName: "Apple Watch Series 7",
         price: 1799.0,
         productImage: product7,
     }

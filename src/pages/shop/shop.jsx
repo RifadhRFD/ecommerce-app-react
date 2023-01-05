@@ -1,16 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { PRODUCTS } from '../../products';
+import { Product } from './product';
+import './shop.css';
 
-const shop = () => {
+export const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h1>RTech Shop</h1>
+      <h1>R_Tech Shop</h1>
       </div>
       <div className="products">
-        
+        {" "}
+        {PRODUCTS.map((product) => (
+        <Product data={product}/>
+      ))}
       </div>
     </div>
   )
 }
-
-export default shop
